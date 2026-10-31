@@ -1,0 +1,11 @@
+.env
+*.log
+*.tmp
+.DS_Store
+
+# Secrets et sauvegardes — ne jamais versionner
+.env.*
+!.env.example
+*.bak
+*.bak.*
+_backups_*/
